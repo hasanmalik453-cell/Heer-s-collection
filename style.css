@@ -1,0 +1,197 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+}
+
+body{
+background:#02122e;
+color:white;
+}
+
+.topbar{
+background:#081b42;
+padding:10px;
+text-align:center;
+letter-spacing:2px;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 80px;
+}
+
+.logo{
+font-size:42px;
+font-weight:300;
+letter-spacing:8px;
+}
+
+.search{
+width:260px;
+padding:12px;
+border-radius:30px;
+border:none;
+}
+
+.icons{
+display:flex;
+gap:20px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+padding-top:60px;
+}
+
+.hero h1{
+font-size:90px;
+}
+
+.hero p{
+margin-top:20px;
+font-size:28px;
+}
+
+button{
+margin-top:30px;
+padding:18px 60px;
+border:none;
+border-radius:50px;
+background:#33aaf3;
+color:white;
+font-size:20px;
+}
+
+.hero-image{
+margin-top:40px;
+}
+
+.hero-image img{
+
+width:350px;
+
+height:350px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:6px solid #33aaf3;
+
+box-shadow:0 0 40px rgba(0,0,0,.4);
+
+}/* PHOTO AREA */
+
+.hero-image{
+
+display:flex;
+
+justify-content:center;
+
+margin-top:50px;
+
+}
+
+
+/* Luxury Circular Frame */
+
+.photo-frame{
+
+width:430px;
+
+height:430px;
+
+padding:8px;
+
+border-radius:50%;
+
+background:
+linear-gradient(
+45deg,
+#39b8ff,
+white,
+#39b8ff
+);
+
+box-shadow:
+
+0 0 30px #39b8ff,
+
+0 0 80px rgba(57,184,255,.5);
+
+overflow:hidden;
+
+animation:
+float 4s ease-in-out infinite;
+
+}
+
+
+/* PHOTO */
+
+.photo-frame img{
+
+width:100%;
+
+height:100%;
+
+border-radius:50%;
+
+/* keeps full image visible */
+
+object-fit:cover;
+
+/* move image upward */
+
+object-position:center 5%;
+
+display:block;
+
+}
+
+
+/* Floating animation */
+
+@keyframes float{
+
+0%{
+
+transform:
+translateY(0);
+
+}
+
+50%{
+
+transform:
+translateY(-12px);
+
+}
+
+100%{
+
+transform:
+translateY(0);
+
+}
+
+}
