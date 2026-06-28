@@ -38,7 +38,11 @@ class="search">
 
 </header>
 
-<nav>
+<div class="menu-btn">
+☰
+</div>
+
+<nav class="nav-menu">
 
 <a href="#">HOME</a>
 <a href="#">WOMEN</a>
@@ -80,5 +84,20 @@ SHOP NOW
 
 </section>
 
-</body>
+<script>
+
+const menu =
+document.querySelector(".menu-btn");
+
+const nav =
+document.querySelector(".nav-menu");
+
+menu.onclick = () => {
+
+nav.classList.toggle("show");
+
+};
+
+</script>
+  </body>
 </html>
