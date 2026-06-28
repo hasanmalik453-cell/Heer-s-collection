@@ -28,6 +28,8 @@ padding:30px 80px;
 
 ./* HEER'S COLLECTION LOGO */
 
+/* MOVING LOGO */
+
 .logo{
 
 font-size:56px;
@@ -36,39 +38,33 @@ font-weight:300;
 
 letter-spacing:10px;
 
-text-align:center;
-
-display:block;
+display:inline-block;
 
 animation:
-logoDrop 2s ease-out forwards;
+logoFloat 4s ease-in-out infinite;
 
 }
 
 
-/* OPENING EFFECT */
+/* CONTINUOUS FLOAT */
 
-@keyframes logoDrop{
+@keyframes logoFloat{
 
 0%{
 
-opacity:0;
-
 transform:
-translateY(-120px);
+translateY(0);
 
 }
 
-60%{
+50%{
 
 transform:
-translateY(20px);
+translateY(-12px);
 
 }
 
 100%{
-
-opacity:1;
 
 transform:
 translateY(0);
