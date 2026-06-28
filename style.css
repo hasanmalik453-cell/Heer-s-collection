@@ -26,32 +26,43 @@ padding:30px 80px;
 
 /* LUXURY MOVING LOGO */
 
+./* HEER'S COLLECTION LOGO */
+
 .logo{
 
-font-size:42px;
+font-size:56px;
 
 font-weight:300;
 
-letter-spacing:8px;
+letter-spacing:10px;
 
-display:inline-block;
+text-align:center;
+
+display:block;
 
 animation:
-slideLogo 2s ease-out;
+logoDrop 2s ease-out forwards;
 
 }
 
 
-/* OPEN ANIMATION */
+/* OPENING EFFECT */
 
-@keyframes slideLogo{
+@keyframes logoDrop{
 
 0%{
 
 opacity:0;
 
 transform:
-translateY(-100px);
+translateY(-120px);
+
+}
+
+60%{
+
+transform:
+translateY(20px);
 
 }
 
