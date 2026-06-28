@@ -606,3 +606,58 @@ width:90%;
 }
 
 }
+/* FINAL LOGO FIX */
+
+.logo{
+
+font-size:72px !important;
+
+letter-spacing:12px !important;
+
+display:block !important;
+
+text-align:center !important;
+
+animation: logoFloating 4s ease-in-out infinite !important;
+
+transform-origin:center;
+
+}
+
+
+@keyframes logoFloating{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.logo{
+
+font-size:42px !important;
+
+letter-spacing:5px !important;
+
+}
+
+}
