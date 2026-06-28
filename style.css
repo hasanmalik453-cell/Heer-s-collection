@@ -30,44 +30,46 @@ padding:30px 80px;
 
 /* MOVING LOGO */
 
+/* LUXURY MOVING LOGO */
+
 .logo{
 
-font-size:56px;
+font-size:72px !important;
 
 font-weight:300;
 
-letter-spacing:10px;
+letter-spacing:12px;
 
-display:inline-block;
+display:block;
 
-animation:
-logoFloat 4s ease-in-out infinite;
+text-align:center;
+
+position:relative;
+
+animation: logoFloat 4s ease-in-out infinite;
 
 }
 
 
-/* CONTINUOUS FLOAT */
+/* CONTINUOUS MOVEMENT */
 
 @keyframes logoFloat{
 
 0%{
 
-transform:
-translateY(0);
+transform:translateY(0px);
 
 }
 
 50%{
 
-transform:
-translateY(-12px);
+transform:translateY(-15px);
 
 }
 
 100%{
 
-transform:
-translateY(0);
+transform:translateY(0px);
 
 }
 
