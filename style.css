@@ -8,14 +8,22 @@ font-family:'Montserrat',sans-serif;
 body{
 
 body{
-
-background:#02122e;
-
 color:white;
 
-position:relative;
+background-image:
+linear-gradient(
+rgba(0,0,0,.70),
+rgba(0,0,0,.70)
+),
+url("bg1.jpg");
 
-overflow-x:hidden;
+background-size:cover;
+
+background-position:center;
+
+background-attachment:fixed;
+
+animation:bgSlide 18s infinite;
 
 }
 
@@ -765,6 +773,35 @@ background-image:url("bg2.jpg");
 
 background-image:url("bg3.jpg");
 
+}
+
+}
+/* BACKGROUND SLIDER */
+
+@keyframes bgSlide{
+
+0%{
+background-image:
+linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+url("bg1.jpg");
+}
+
+33%{
+background-image:
+linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+url("bg2.jpg");
+}
+
+66%{
+background-image:
+linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+url("bg3.jpg");
+}
+
+100%{
+background-image:
+linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+url("bg1.jpg");
 }
 
 }
