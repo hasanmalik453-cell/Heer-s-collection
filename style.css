@@ -121,7 +121,9 @@ nav a{
     color:#555;
     text-align:center;
 }
-
+.hero p{
+    margin-bottom:35px;
+}
 button,
 .btn{
     background:#d4af37;
@@ -976,4 +978,23 @@ button:hover,
 .btn:hover{
     background: #b8941f !important;
     transform: translateY(-5px) !important;
+}
+/* PREMIUM HERO SPACING */
+
+.hero{
+    padding-top:80px !important;
+}
+
+.hero h1{
+    margin-bottom:35px !important;
+}
+
+.hero p{
+    margin-bottom:40px !important;
+}
+
+.hero button,
+.hero .btn{
+    margin-top:25px !important;
+    margin-bottom:50px !important;
 }
