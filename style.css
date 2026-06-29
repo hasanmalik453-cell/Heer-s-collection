@@ -869,3 +869,35 @@ footer p{
     margin-top:35px;
     font-size:14px;
 }
+footer {
+    background: #000 !important;
+    padding: 60px 20px !important;
+    text-align: center;
+}
+
+footer h2 {
+    color: white !important;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+footer p {
+    color: #cccccc !important;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: white !important;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: gold !important;
+}
+
+.copyright {
+    color: #999999 !important;
+    margin-top: 20px;
+}
