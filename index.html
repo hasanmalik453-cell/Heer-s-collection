@@ -8,9 +8,7 @@
 <title>Heer's Collection</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -21,11 +19,9 @@ DELIVERY ALL OVER PAKISTAN • 100% ORIGINAL BRANDS • EASY RETURNS
 
 <header>
 
-<div class="logo">
-HEER'S COLLECTION
-</div>
+<div class="logo">HEER'S COLLECTION</div>
 
-<input type="text" placeholder="Search products..." class="search">
+<input type="text" class="search" placeholder="Search products...">
 
 <div class="icons">
 <span>Account</span>
@@ -37,113 +33,82 @@ HEER'S COLLECTION
 
 </header>
 
-<nav class="nav-menu">
+<nav>
 <a href="#">HOME</a>
 <a href="#">WOMEN</a>
 <a href="#">MEN</a>
 <a href="#">KIDS</a>
 <a href="#">BEAUTY</a>
-<a href="#">HOME & LIVING</a>
-<a href="#">ELECTRONICS</a>
 </nav>
 
 <section class="hero">
 
 <div class="hero-content">
-<p class="tagline">LUXURY FASHION • BEAUTY • LIFESTYLE</p>
-
 <h1>BUY EVERYTHING IN PAKISTAN</h1>
-
 <p>Luxury • Original • Fast Delivery</p>
-
 <button>SHOP NOW</button>
-
 </div>
 
 <div class="hero-image">
-
 <div class="photo-frame">
-<img src="newphoto.jpg" alt="Our Photo">
+<img src="newphoto.jpg" alt="photo">
 </div>
-
 </div>
 
 </section>
 
-<!-- PRODUCTS -->
-
 <section class="products">
-
 <h2>FEATURED COLLECTION</h2>
 
 <div class="product-grid">
 
 <div class="product-card">
-<img src="product1.jpg" alt="Product">
+<img src="product1.jpg">
 <h3>Luxury Collection</h3>
 <p>Rs. 4,999</p>
-<a href="https://wa.me/923358053443?text=Hi%20I%20want%20to%20order%20this%20product" target="_blank">
 <button>BUY NOW</button>
-</a>
 </div>
 
 <div class="product-card">
-<img src="product2.jpg" alt="Product">
+<img src="product2.jpg">
 <h3>Premium Wear</h3>
 <p>Rs. 5,499</p>
-<a href="https://wa.me/923358053443?text=Hi%20I%20want%20to%20order" target="_blank">
 <button>BUY NOW</button>
-</a>
 </div>
 
 <div class="product-card">
-<img src="product3.jpg" alt="Product">
+<img src="product3.jpg">
 <h3>Exclusive Style</h3>
 <p>Rs. 6,999</p>
-<a href="https://wa.me/923358053443?text=Hi%20I%20want%20to%20order%20this%20product" target="_blank">
 <button>BUY NOW</button>
-</a>
 </div>
 
 </div>
-
 </section>
 
-<!-- WHATSAPP BUTTON -->
-
-<a href="https://wa.me/923358053443" class="whatsapp">
-💬
-</a>
-
-<!-- FOOTER -->
+<a href="https://wa.me/923358053443" class="whatsapp">💬</a>
 
 <footer>
-
 <h2>HEER'S COLLECTION</h2>
 <p>Luxury Fashion • Pakistan</p>
 
 <div class="footer-links">
 <a href="#">Home</a>
 <a href="#">Shop</a>
-<a href="#">About Us</a>
+<a href="#">About</a>
 <a href="#">Contact</a>
 </div>
 
-<div class="copyright">
-© 2026 HEER'S COLLECTION. All Rights Reserved.
-</div>
-
+<p>© 2026 HEER'S COLLECTION</p>
 </footer>
 
 <script>
-
 const menu = document.querySelector(".menu-btn");
-const nav = document.querySelector(".nav-menu");
+const nav = document.querySelector("nav");
 
 menu.onclick = () => {
     nav.classList.toggle("show");
 };
-
 </script>
 
 </body>
