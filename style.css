@@ -134,20 +134,16 @@ button:hover,.btn:hover{
 }
 
 ```css
+```css
 .photo-frame img{
     width:100%;
     height:100%;
     border-radius:50%;
-
-    /* Show full photo */
-    object-fit: contain;
-
-    /* White background around photo */
-    background: white;
-
-    /* Move photo slightly up if needed */
-    object-position: center top;
+    object-fit: cover;
+    object-position: center 15%;
 }
+```
+
 ```
 
 
