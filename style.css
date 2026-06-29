@@ -124,7 +124,7 @@ nav a{
 
 button,
 .btn{
-    background:#111;
+    background:#d4af37;
     color:white;
     border:none;
     padding:18px 50px;
@@ -924,4 +924,35 @@ background:#000 !important;
 
 color:#d4af37 !important;
 
+}
+/* LUXURY BUTTON STYLE */
+
+button,
+.btn{
+    background:#d4af37 !important;
+    color:white !important;
+    border:none;
+    border-radius:50px;
+    padding:18px 50px;
+    font-size:22px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+button:hover,
+.btn:hover{
+    background:#b8941f !important;
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+/* MENU HOVER */
+
+nav a:hover{
+    color:#d4af37 !important;
+}
+
+.logo:hover{
+    color:#d4af37 !important;
 }
