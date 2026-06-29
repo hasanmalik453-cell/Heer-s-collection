@@ -901,3 +901,27 @@ footer p {
     color: #999999 !important;
     margin-top: 20px;
 }
+/* FINAL FOOTER FIX */
+
+footer,
+footer h2,
+footer p,
+footer a,
+.footer-links a,
+.copyright{
+
+color:white !important;
+
+}
+
+footer{
+
+background:#000 !important;
+
+}
+
+.footer-links a:hover{
+
+color:#d4af37 !important;
+
+}
