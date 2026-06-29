@@ -6,25 +6,11 @@ font-family:'Montserrat',sans-serif;
 }
 
 body{
-
-body{
-color:white;
-
-background-image:
-linear-gradient(
-rgba(0,0,0,.85),
-rgba(0,0,0,.85)
-),
-url("bg1.jpg");
-
-background-size:cover;
-
-background-position:center;
-
-background-attachment:fixed;
-
-animation:bgSlide 18s infinite;
-
+    margin:0;
+    padding:0;
+    font-family:'Montserrat',sans-serif;
+    background:#f8f6f2;
+    color:#111;
 }
 
 .topbar{
@@ -50,21 +36,10 @@ padding:30px 80px;
 /* LUXURY MOVING LOGO */
 
 .logo{
-
-font-size:72px !important;
-
-font-weight:300;
-
-letter-spacing:12px;
-
-display:block;
-
-text-align:center;
-
-position:relative;
-
-animation: logoFloat 4s ease-in-out infinite;
-
+    font-size:60px;
+    font-weight:300;
+    color:#111;
+    letter-spacing:8px;
 }
 
 
@@ -104,16 +79,12 @@ display:flex;
 gap:20px;
 }
 
-nav{
-display:flex;
-justify-content:center;
-gap:40px;
-padding:25px;
-}
-
 nav a{
-color:white;
-text-decoration:none;
+    color:#111;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:500;
+    margin:0 20px;
 }
 
 .hero{
@@ -125,22 +96,35 @@ padding-top:60px;
 }
 
 .hero h1{
-font-size:90px;
+    font-size:90px;
+    color:#111;
+    text-align:center;
+    font-weight:700;
+    letter-spacing:3px;
+    margin-top:50px;
 }
 
 .hero p{
-margin-top:20px;
-font-size:28px;
+    font-size:30px;
+    color:#555;
+    text-align:center;
 }
 
-button{
-margin-top:30px;
-padding:18px 60px;
-border:none;
-border-radius:50px;
-background:#33aaf3;
-color:white;
-font-size:20px;
+button,
+.btn{
+    background:#111;
+    color:white;
+    border:none;
+    padding:18px 45px;
+    border-radius:8px;
+    font-size:24px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover,
+.btn:hover{
+    background:#333;
 }
 
 .hero-image{
@@ -809,14 +793,38 @@ h1,
 h2,
 h3,
 p,
-a,
-.logo,
-nav a {
-    color: white !important;
+.logo {
+    color: #111 !important;
+    text-shadow:none;
+}
     text-shadow: 0 3px 10px rgba(0,0,0,0.8);
 }
 
 .hero-content {
     position: relative;
     z-index: 10;
+}
+/* FINAL LIGHT BACKGROUND */
+
+body{
+    background: #f8f6f2 !important;
+    background-image: none !important;
+    animation: none !important;
+}
+
+h1,
+h2,
+h3,
+p,
+.logo{
+    color: #111 !important;
+    text-shadow: none !important;
+}
+
+nav a{
+    color: #111 !important;
+}
+
+.products h2{
+    color: #111 !important;
 }
