@@ -70,23 +70,27 @@ Discover Pakistan's premium branded collections for women, men and kids.
 <div class="category-grid">
 
 <a href="women.html" class="category-box">
+<img src="product1.jpg" alt="">
 <h3>WOMEN</h3>
 <p>Luxury Lawn Collection</p>
 </a>
 
 <a href="men.html" class="category-box">
+<img src="men.jpg" alt="">
 <h3>MEN</h3>
-<p>Coming Soon</p>
+<p>Premium Collection</p>
 </a>
 
 <a href="kids.html" class="category-box">
+<img src="kids.jpg" alt="">
 <h3>KIDS</h3>
-<p>Coming Soon</p>
+<p>Latest Styles</p>
 </a>
 
 <a href="beauty.html" class="category-box">
+<img src="beauty.jpg" alt="">
 <h3>BEAUTY</h3>
-<p>Coming Soon</p>
+<p>Luxury Cosmetics</p>
 </a>
 
 </div>
@@ -225,7 +229,7 @@ menu.onclick = () => {
 
 .category-box{
     background:white;
-    padding:40px 20px;
+    padding:20px;
     border-radius:20px;
     text-decoration:none;
     color:#111;
@@ -250,4 +254,23 @@ menu.onclick = () => {
 
 .category-box:hover p{
     color:white;
+}
+.category-box img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.category-box{
+    overflow:hidden;
+}
+
+.category-box img{
+    transition:.4s;
+}
+
+.category-box:hover img{
+    transform:scale(1.08);
 }
