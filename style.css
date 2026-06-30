@@ -58,6 +58,7 @@ nav{
     text-align:center;
     background:white;
     padding:15px;
+    margin-bottom:50px;
 }
 
 nav a{
@@ -145,7 +146,7 @@ button:hover{
 /* PRODUCTS */
 .products{
     width:90%;
-    margin:100px auto 80px;
+    margin:60px auto 80px;
     text-align:center;
 }
 
@@ -197,7 +198,8 @@ button:hover{
     font-size:42px;
     font-weight:700;
     letter-spacing:2px;
-    margin-bottom:60px;
+    margin-top:40px;
+    margin-bottom:70px;
     color:#111;
     text-transform:uppercase;
 }
