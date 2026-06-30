@@ -82,9 +82,13 @@ Discover Pakistan's premium branded collections for women, men and kids.
 </a>
 
 <a href="kids.html" class="category-box">
-<img src="kids.jpg" alt="">
-<h3>KIDS</h3>
-<p>Latest Styles</p>
+
+    <img src="kids.jpg" alt="Kids">
+
+    <h3>KIDS</h3>
+
+    <p>Latest Styles</p>
+
 </a>
 
 <a href="beauty.html" class="category-box">
@@ -273,4 +277,12 @@ menu.onclick = () => {
 
 .category-box:hover img{
     transform:scale(1.08);
+}
+.category-box img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    object-position:top;
+    display:block;
+    border-radius:20px 20px 0 0;
 }
