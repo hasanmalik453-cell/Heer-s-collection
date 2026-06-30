@@ -152,8 +152,10 @@ button:hover{
 
 .product-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:35px;
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+    max-width:900px;
+    margin:auto;
 }
 
 .product-card{
