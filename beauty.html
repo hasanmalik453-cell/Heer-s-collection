@@ -11,6 +11,44 @@
 
 <body>
 
+  <div class="topbar">
+DELIVERY ALL OVER PAKISTAN • 100% ORIGINAL BRANDS • EASY RETURNS
+</div>
+
+<header class="header">
+
+<div class="logo">
+HEER'S COLLECTION
+</div>
+
+<div class="header-right">
+
+<input
+type="text"
+class="search"
+placeholder="Search collections">
+
+<div class="icons">
+<i class="fa-regular fa-user"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-solid fa-bag-shopping"></i>
+</div>
+
+</div>
+
+<div class="menu-btn">
+☰
+</div>
+
+</header>
+
+<nav>
+<a href="index.html">HOME</a>
+<a href="women.html">WOMEN</a>
+<a href="men.html">MEN</a>
+<a href="kids.html">KIDS</a>
+<a href="beauty.html">BEAUTY</a>
+</nav>
 <section class="products">
 
 <h2>BEAUTY COLLECTION</h2>
@@ -63,7 +101,16 @@
 </div>
 
 </section>
+  
+<script>
+const menu = document.querySelector(".menu-btn");
+const nav = document.querySelector("nav");
 
+menu.onclick = () => {
+nav.classList.toggle("show");
+};
+</script>
+  
 </body>
 
 </html>
