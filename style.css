@@ -311,8 +311,8 @@ margin-right:24px;
 
     object-fit:cover;
 
-    /* move image upward so head stays visible */
-    object-position:center top;
+    /* show upper part of image */
+    object-position:center 10%;
 
     transition:.5s;
 }
