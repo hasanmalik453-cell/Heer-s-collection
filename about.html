@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>About Us | Heer's Collection</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -24,6 +24,19 @@ DELIVERY ALL OVER PAKISTAN • 100% ORIGINAL BRANDS • EASY RETURNS
 HEER'S COLLECTION
 </div>
 
+<div class="header-right">
+
+<input
+type="text"
+class="search"
+placeholder="Search collections">
+
+</div>
+
+<div class="menu-btn">
+☰
+</div>
+
 </header>
 
 <nav>
@@ -34,51 +47,198 @@ HEER'S COLLECTION
 <a href="beauty.html">BEAUTY</a>
 </nav>
 
-<section style="padding:80px 20px; text-align:center;">
+
+<!-- HERO -->
+
+<section class="about-hero">
+
+<div class="overlay">
 
 <h1>ABOUT US</h1>
 
-<br>
-
 <p>
-Welcome to Heer's Collection.
+
+A family business built on trust,
+dedicated to quality, made for you.
+
 </p>
 
-<br>
-
-<p>
-We offer premium fashion collections for women, men, kids and beauty products across Pakistan.
-</p>
-
-<br>
-
-<p>
-Our goal is to provide quality products, trusted service and a luxury shopping experience.
-</p>
-
-<br>
-
-<p>
-Thank you for choosing Heer's Collection.
-</p>
-
-<br><br>
-
-<a href="index.html">
-<button>BACK TO HOME</button>
-</a>
+</div>
 
 </section>
 
+
+
+<!-- STORY -->
+
+<section class="about-story">
+
+<div class="story-text">
+
+<h2>OUR STORY</h2>
+
+<p>
+
+Heer's Collection is more than just a brand —
+it is a family dream created with dedication,
+trust and passion.
+
+The company is proudly owned by
+Mr. Malik Nasir.
+
+Under the leadership of
+Managing Directors
+Mr. Malik Hasan
+and
+Mr. Malik Umair Nasir,
+the vision of our business continues to grow.
+
+The name
+"Heer's Collection"
+was inspired by
+Mrs. Hira Hasan Malik,
+the beloved wife of Mr. Malik Hasan.
+
+Today she proudly serves as CEO
+and continues contributing with vision,
+support and inspiration.
+
+Our mission is simple:
+
+To provide premium quality,
+excellent service,
+and build long-term trust.
+
+We are proud to be a family business
+and we are here to provide
+the best service and good quality.
+
+Thank you for being part
+of our journey.
+
+</p>
+
+</div>
+
+<div class="story-image">
+
+<img src="story.jpg">
+
+</div>
+
+</section>
+
+
+
+<!-- LEADERSHIP -->
+
+<section class="team">
+
+<h2>OUR LEADERSHIP</h2>
+
+<div class="team-grid">
+
+<div class="member">
+
+<img src="owner.jpg">
+
+<h3>Mr. Malik Nasir</h3>
+
+<p>Owner</p>
+
+</div>
+
+
+<div class="member">
+
+<img src="hasan.jpg">
+
+<h3>Mr. Malik Hasan</h3>
+
+<p>Managing Director</p>
+
+</div>
+
+
+<div class="member">
+
+<img src="umair.jpg">
+
+<h3>Mr. Malik Umair Nasir</h3>
+
+<p>Managing Director</p>
+
+</div>
+
+
+<div class="member">
+
+<img src="hira.jpg">
+
+<h3>Mrs. Hira Hasan Malik</h3>
+
+<p>CEO</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- MISSION -->
+
+<section class="mission">
+
+<h2>OUR MISSION</h2>
+
+<p>
+
+Best Quality • Trusted Service • Family Values
+
+</p>
+
+<p>
+
+Our goal is to provide customers
+with premium products,
+honest service,
+and an experience they can trust.
+
+</p>
+
+</section>
+
+
+
 <footer>
 
-<hr>
+<p>
 
-<p class="copyright">
-© 2026 HEER'S COLLECTION. All Rights Reserved.
+© 2026 HEER'S COLLECTION
+
 </p>
 
 </footer>
+
+
+
+<script>
+
+const menu =
+document.querySelector(".menu-btn");
+
+const nav =
+document.querySelector("nav");
+
+menu.onclick = () => {
+
+nav.classList.toggle("show");
+
+};
+
+</script>
 
 </body>
 
