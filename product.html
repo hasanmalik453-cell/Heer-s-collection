@@ -63,8 +63,17 @@ if (image) {
   document.getElementById("productImage").src = image;
 }
 
+const page =
+window.location.href;
+
 const message =
-`Hi, I want to order: ${name} (${price})`;
+`Hi, I want to order:
+
+${name}
+${price}
+
+Product Link:
+${page}`;
 
 document.getElementById("orderLink").href =
 `https://wa.me/923358053443?text=${encodeURIComponent(message)}`;
