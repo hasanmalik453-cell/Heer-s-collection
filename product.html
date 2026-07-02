@@ -38,8 +38,10 @@
 Premium Collection • 100% Original
 </p>
 
-<a id="orderLink">
-  ORDER NOW
+<a id="orderLink" href="#" target="_blank">
+<button>
+ORDER NOW
+</button>
 </a>
 
 </div>
@@ -61,8 +63,14 @@ if (image) {
   document.getElementById("productImage").src = image;
 }
 
+const message =
+`Hi, I want to order: ${name} (${price})`;
+
 document.getElementById("orderLink").href =
-`https://wa.me/923358053443?text=Hi I want to order ${name}`;
+`https://wa.me/923358053443?text=${encodeURIComponent(message)}`;
+
+document.getElementById("orderLink").target =
+"_blank";
 
 </script>
 
