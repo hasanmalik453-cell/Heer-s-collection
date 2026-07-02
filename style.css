@@ -924,3 +924,42 @@ margin-top:20px;
 color:#777;
 
 }
+.about b{
+color:#b08d57;
+}
+
+.mission{
+padding:100px 10%;
+text-align:center;
+}
+
+.mission p{
+max-width:900px;
+margin:auto;
+line-height:2;
+font-size:18px;
+}
+
+.team h2{
+margin-bottom:50px;
+}
+
+.member{
+transition:.4s;
+}
+
+.member:hover{
+transform:translateY(-8px);
+}
+
+.member img{
+transition:.4s;
+}
+
+.member img:hover{
+transform:scale(1.05);
+}
+
+.member h3{
+color:#b08d57;
+}
