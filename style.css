@@ -834,3 +834,93 @@ background:#f8f5f0;
 font-size:50px;
 
 }
+.about{
+
+padding:80px 10%;
+text-align:center;
+
+}
+
+.about h1{
+
+font-size:42px;
+
+margin-bottom:30px;
+
+}
+
+.about p{
+
+max-width:900px;
+
+margin:auto;
+
+line-height:2;
+
+font-size:18px;
+
+}
+
+
+.team{
+
+padding:80px 10%;
+
+text-align:center;
+
+}
+
+
+.team-grid{
+
+display:flex;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+
+.member{
+
+width:260px;
+
+background:#fff;
+
+padding:25px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+.member img{
+
+width:180px;
+
+height:180px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}
+
+
+.member h3{
+
+margin-top:20px;
+
+}
+
+
+.member p{
+
+color:#777;
+
+}
